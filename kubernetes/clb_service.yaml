@@ -3,9 +3,12 @@ kind: Service
 metadata:
   name: ecsdemo-crystal
   namespace: clb-test
+#  annotations:
+#    service.beta.kubernetes.io/aws-load-balancer-internal: "true"
 spec:
   selector:
     app: ecsdemo-crystal
+#  type: LoadBalancer
   ports:
    -  protocol: TCP
       port: 80

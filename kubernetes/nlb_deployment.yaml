@@ -4,7 +4,7 @@ metadata:
   name: ecsdemo-crystal
   labels:
     app: ecsdemo-crystal
-  namespace: clb-test
+  namespace: nlb-test
 spec:
   replicas: 1
   selector:
